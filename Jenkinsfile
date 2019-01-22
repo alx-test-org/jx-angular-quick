@@ -1,7 +1,5 @@
 pipeline {
-  agent {
-    label "jenkins-javascript"
-  }
+  agent any
   environment {
     ORG = 'alx-test-org'
     APP_NAME = 'jx-angular-quick'
